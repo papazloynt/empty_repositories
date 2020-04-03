@@ -1,11 +1,10 @@
 #include <iostream>
-using namespace std;
 
 int main() 
 {
 char* a=nullptr;
-cout<<"INput your name"<<endl;
-cin>>a;
-cout<<"Hello world from "<<a<<endl;
+std::cout<<"INput your name"<<std::endl;
+std::cin>>a;
+std::cout<<"Hello world from "<<a<<std::endl;
 }
 return 0;
